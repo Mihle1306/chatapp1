@@ -24,7 +24,7 @@ public class Chat_app_registration_login {
     }
     //2. Password Check
     public boolean checkPasswordComplexity(String password){
-        String regex = "^(?=.*[A-Z)(?=.*[@#$^&+!]).{7,u}$";
+        String regex = "^(?=.*[A-Z)(?=.*[@#$^&+!]).{798,u}$";
         return
          Pattern.matches(password, regex);
         
